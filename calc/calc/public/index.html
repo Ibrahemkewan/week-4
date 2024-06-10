@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Link to external stylesheet -->
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Form for calculation -->
+    <form action="/calc" method="post">
+        <!-- Input field for first operand -->
+        <input name="x" value="0">
+        <!-- Dropdown menu for selecting operation -->
+        <select name="operation" value="0">
+            <option value="0">plus</option>
+            <option value="1">minus</option>
+            <option value="2">times</option>
+            <option value="3">divide</option>
+        </select>
+        <!-- Input field for second operand -->
+        <input name="y" value="0">
+        <!-- Submit button to calculate -->
+        <input type="submit" value="Calculate">
+    </form>
+    <!-- Display area for the calculation formula -->
+    <div id="formula"></div>
+    <!-- Script for interactive functionality -->
+    <script src="index.js"></script>
+</body>
+</html>
